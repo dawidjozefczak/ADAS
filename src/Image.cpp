@@ -9,6 +9,10 @@ cv::Mat Image::image_read(std::string directory, size_t count) {
     return image_;
 }
 
+cv::Mat Image::get_image() {
+    return image_;
+}
+
 void Image::image_show(std::string imgName) {
     cv::imshow(imgName, image_);
 }

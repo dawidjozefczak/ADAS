@@ -1,3 +1,5 @@
+#pragma once
+
 #include <cstddef>
 #include <opencv2/opencv.hpp>
 #include <string>
@@ -12,7 +14,7 @@ public:
 
     // show image 
     void image_show(std::string imgName);
-
+    cv::Mat get_image();
     size_t getAvailableImage() const;
 
 private:

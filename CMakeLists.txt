@@ -49,6 +49,7 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 set(SOURCES
     ${SOURCE_DIR}/Image.cpp
+    ${SOURCE_DIR}/StereoMatching.cpp
 )
 
 add_library(${PROJECT_NAME}-lib STATIC ${SOURCES})
